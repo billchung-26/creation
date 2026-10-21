@@ -1,6 +1,6 @@
 {
  "currency": "USD",
- "generated_at": "2026-10-20 04:55 UTC",
+ "generated_at": "2026-10-21 04:53 UTC",
  "hotel_list_generated_at": "2026-04-15T18:24:44.538Z",
  "hotels": {
   "g13806497-d1201244": {
@@ -55,15 +55,15 @@
  "prices": {
   "g13806497-d1201244": {
    "2026-11-20": {
-    "price": 198.0,
+    "price": 199.0,
     "provider": "Vio.com"
    },
    "2026-11-21": {
-    "price": 324.0,
+    "price": 323.0,
     "provider": "Vio.com"
    },
    "2026-11-22": {
-    "price": 189.0,
+    "price": 188.0,
     "provider": "Vio.com"
    },
    "2026-11-23": {
@@ -71,11 +71,11 @@
     "provider": "Vio.com"
    },
    "2026-11-24": {
-    "price": 94.0,
+    "price": 95.0,
     "provider": "Vio.com"
    },
    "2026-11-25": {
-    "price": 104.0,
+    "price": 99.0,
     "provider": "Vio.com"
    },
    "2026-11-26": {
@@ -83,19 +83,19 @@
     "provider": "Vio.com"
    },
    "2026-11-27": {
-    "price": 118.0,
-    "provider": "Trip.com"
+    "price": 104.0,
+    "provider": "Vio.com"
    },
    "2026-11-28": {
-    "price": 178.0,
-    "provider": "Trip.com"
+    "price": 162.0,
+    "provider": "Vio.com"
    },
    "2026-11-29": {
     "price": 98.0,
     "provider": "Vio.com"
    },
    "2026-11-30": {
-    "price": 103.0,
+    "price": 98.0,
     "provider": "Vio.com"
    },
    "2026-12-01": {
@@ -115,11 +115,11 @@
     "provider": "Vio.com"
    },
    "2026-12-05": {
-    "price": 235.0,
+    "price": 234.0,
     "provider": "Vio.com"
    },
    "2026-12-06": {
-    "price": 107.0,
+    "price": 104.0,
     "provider": "Vio.com"
    },
    "2026-12-07": {
@@ -127,8 +127,8 @@
     "provider": "Vio.com"
    },
    "2026-12-08": {
-    "price": 118.0,
-    "provider": "Trip.com"
+    "price": 107.0,
+    "provider": "Vio.com"
    },
    "2026-12-09": {
     "price": 107.0,
@@ -139,11 +139,11 @@
     "provider": "Vio.com"
    },
    "2026-12-11": {
-    "price": 110.0,
+    "price": 114.0,
     "provider": "Vio.com"
    },
    "2026-12-12": {
-    "price": 259.0,
+    "price": 258.0,
     "provider": "Vio.com"
    },
    "2026-12-13": {
@@ -171,11 +171,11 @@
     "provider": "Vio.com"
    },
    "2026-12-19": {
-    "price": 275.0,
-    "provider": "Booking.com"
+    "price": 258.0,
+    "provider": "Vio.com"
    },
    "2026-12-20": {
-    "price": 107.0,
+    "price": 104.0,
     "provider": "Vio.com"
    },
    "2026-12-21": {
@@ -183,8 +183,8 @@
     "provider": "Vio.com"
    },
    "2026-12-22": {
-    "price": 107.0,
-    "provider": "Vio.com"
+    "price": 118.0,
+    "provider": "Trip.com"
    },
    "2026-12-23": {
     "price": 107.0,
@@ -195,7 +195,7 @@
     "provider": "Vio.com"
    },
    "2026-12-25": {
-    "price": 195.0,
+    "price": 194.0,
     "provider": "Vio.com"
    },
    "2026-12-26": {
@@ -219,11 +219,11 @@
     "provider": "Vio.com"
    },
    "2026-12-31": {
-    "price": 194.0,
+    "price": 193.0,
     "provider": "Vio.com"
    },
    "2027-01-01": {
-    "price": 194.0,
+    "price": 193.0,
     "provider": "Vio.com"
    },
    "2027-01-02": {
@@ -255,7 +255,7 @@
     "provider": "Vio.com"
    },
    "2027-01-09": {
-    "price": 155.0,
+    "price": 154.0,
     "provider": "Vio.com"
    },
    "2027-01-10": {
@@ -267,7 +267,7 @@
     "provider": "Vio.com"
    },
    "2027-01-12": {
-    "price": 100.0,
+    "price": 102.0,
     "provider": "Vio.com"
    },
    "2027-01-13": {
@@ -279,11 +279,11 @@
     "provider": "Vio.com"
    },
    "2027-01-15": {
-    "price": 99.0,
-    "provider": "Vio.com"
+    "price": 109.0,
+    "provider": "Trip.com"
    },
    "2027-01-16": {
-    "price": 155.0,
+    "price": 154.0,
     "provider": "Vio.com"
    },
    "2027-01-17": {
@@ -293,639 +293,639 @@
   },
   "g13806900-d1416364": {
    "2026-11-20": {
-    "price": 392.0,
-    "provider": "Vio.com"
+    "price": 429.0,
+    "provider": "Agoda.com"
    },
    "2026-11-21": {
-    "price": 1077.0,
+    "price": 1072.0,
     "provider": "Vio.com"
    },
    "2026-11-22": {
-    "price": 431.0,
+    "price": 429.0,
     "provider": "Vio.com"
    },
    "2026-11-23": {
-    "price": 366.0,
+    "price": 365.0,
     "provider": "Vio.com"
    },
    "2026-11-24": {
-    "price": 476.0,
+    "price": 474.0,
     "provider": "Vio.com"
    },
    "2026-11-25": {
-    "price": 366.0,
+    "price": 400.0,
     "provider": "Vio.com"
    },
    "2026-11-26": {
-    "price": 366.0,
+    "price": 365.0,
     "provider": "Vio.com"
    },
    "2026-11-27": {
-    "price": 340.0,
+    "price": 339.0,
     "provider": "Vio.com"
    },
    "2026-11-29": {
-    "price": 375.0,
-    "provider": "Booking.com"
+    "price": 339.0,
+    "provider": "Vio.com"
    },
    "2026-11-30": {
-    "price": 366.0,
+    "price": 365.0,
     "provider": "Vio.com"
    },
    "2026-12-01": {
-    "price": 366.0,
+    "price": 365.0,
     "provider": "Vio.com"
    },
    "2026-12-02": {
-    "price": 366.0,
-    "provider": "Vio.com"
+    "price": 401.0,
+    "provider": "Agoda.com"
    },
    "2026-12-03": {
-    "price": 366.0,
+    "price": 365.0,
     "provider": "Vio.com"
    },
    "2026-12-04": {
-    "price": 392.0,
+    "price": 391.0,
     "provider": "Vio.com"
    },
    "2026-12-05": {
-    "price": 489.0,
-    "provider": "Agoda.com"
+    "price": 443.0,
+    "provider": "Vio.com"
    },
    "2026-12-06": {
-    "price": 366.0,
+    "price": 365.0,
     "provider": "Vio.com"
    },
    "2026-12-07": {
-    "price": 366.0,
+    "price": 400.0,
     "provider": "Vio.com"
    },
    "2026-12-08": {
-    "price": 366.0,
+    "price": 365.0,
     "provider": "Vio.com"
    },
    "2026-12-09": {
-    "price": 366.0,
-    "provider": "Vio.com"
+    "price": 401.0,
+    "provider": "Agoda.com"
    },
    "2026-12-10": {
-    "price": 366.0,
+    "price": 365.0,
     "provider": "Vio.com"
    },
    "2026-12-11": {
-    "price": 392.0,
-    "provider": "Vio.com"
+    "price": 430.0,
+    "provider": "Mandarin Oriental"
    },
    "2026-12-12": {
-    "price": 392.0,
+    "price": 391.0,
     "provider": "Vio.com"
    },
    "2026-12-13": {
-    "price": 366.0,
-    "provider": "Vio.com"
+    "price": 401.0,
+    "provider": "Agoda.com"
    },
    "2026-12-14": {
-    "price": 366.0,
+    "price": 400.0,
     "provider": "Vio.com"
    },
    "2026-12-15": {
-    "price": 403.0,
+    "price": 401.0,
     "provider": "Agoda.com"
    },
    "2026-12-16": {
-    "price": 366.0,
-    "provider": "Vio.com"
+    "price": 401.0,
+    "provider": "Agoda.com"
    },
    "2026-12-17": {
-    "price": 366.0,
+    "price": 365.0,
     "provider": "Vio.com"
    },
    "2026-12-18": {
-    "price": 433.0,
-    "provider": "Booking.com"
+    "price": 429.0,
+    "provider": "Agoda.com"
    },
    "2026-12-19": {
-    "price": 484.0,
-    "provider": "Vio.com"
+    "price": 532.0,
+    "provider": "Booking.com"
    },
    "2026-12-20": {
-    "price": 379.0,
+    "price": 378.0,
     "provider": "Vio.com"
    },
    "2026-12-21": {
-    "price": 379.0,
+    "price": 378.0,
     "provider": "Vio.com"
    },
    "2026-12-22": {
-    "price": 379.0,
-    "provider": "Vio.com"
-   },
-   "2026-12-23": {
-    "price": 418.0,
+    "price": 417.0,
     "provider": "Booking.com"
    },
+   "2026-12-23": {
+    "price": 378.0,
+    "provider": "Vio.com"
+   },
    "2026-12-24": {
-    "price": 506.0,
-    "provider": "Trip.com"
+    "price": 505.0,
+    "provider": "Agoda.com"
    },
    "2026-12-25": {
-    "price": 492.0,
+    "price": 490.0,
     "provider": "Vio.com"
    },
    "2026-12-26": {
-    "price": 554.0,
-    "provider": "Vio.com"
+    "price": 609.0,
+    "provider": "Trip.com"
    },
    "2026-12-27": {
-    "price": 461.0,
+    "price": 460.0,
     "provider": "Vio.com"
    },
    "2026-12-28": {
-    "price": 554.0,
+    "price": 552.0,
     "provider": "Vio.com"
    },
    "2026-12-29": {
-    "price": 554.0,
+    "price": 552.0,
     "provider": "Vio.com"
    },
    "2026-12-30": {
-    "price": 1316.0,
-    "provider": "Trip.com"
+    "price": 1195.0,
+    "provider": "Vio.com"
    },
    "2027-01-01": {
-    "price": 677.0,
+    "price": 674.0,
     "provider": "Vio.com"
    },
    "2027-01-02": {
-    "price": 615.0,
+    "price": 613.0,
     "provider": "Vio.com"
    },
    "2027-01-03": {
-    "price": 540.0,
-    "provider": "Trip.com"
-   },
-   "2027-01-04": {
-    "price": 369.0,
+    "price": 490.0,
     "provider": "Vio.com"
    },
+   "2027-01-04": {
+    "price": 404.0,
+    "provider": "Agoda.com"
+   },
    "2027-01-05": {
-    "price": 405.0,
+    "price": 406.0,
     "provider": "Trip.com"
    },
    "2027-01-06": {
-    "price": 369.0,
-    "provider": "Vio.com"
+    "price": 405.0,
+    "provider": "Mandarin Oriental"
    },
    "2027-01-07": {
-    "price": 405.0,
-    "provider": "Trip.com"
+    "price": 368.0,
+    "provider": "Vio.com"
    },
    "2027-01-08": {
-    "price": 439.0,
+    "price": 440.0,
     "provider": "Trip.com"
    },
    "2027-01-09": {
-    "price": 400.0,
+    "price": 398.0,
     "provider": "Vio.com"
    },
    "2027-01-10": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2027-01-11": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2027-01-12": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2027-01-13": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2027-01-14": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2027-01-15": {
-    "price": 439.0,
+    "price": 440.0,
     "provider": "Trip.com"
    },
    "2027-01-16": {
-    "price": 400.0,
+    "price": 398.0,
     "provider": "Vio.com"
    },
    "2027-01-17": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    }
   },
   "g13808515-d1879542": {
    "2026-11-20": {
-    "price": 446.0,
+    "price": 414.0,
     "provider": "Vio.com"
    },
    "2026-11-21": {
-    "price": 559.0,
+    "price": 557.0,
     "provider": "WHotels.com"
    },
    "2026-11-22": {
-    "price": 492.0,
+    "price": 506.0,
     "provider": "Vio.com"
    },
    "2026-11-23": {
-    "price": 600.0,
+    "price": 597.0,
     "provider": "Vio.com"
    },
    "2026-11-24": {
-    "price": 492.0,
+    "price": 506.0,
     "provider": "Vio.com"
    },
    "2026-11-25": {
-    "price": 492.0,
+    "price": 490.0,
     "provider": "Vio.com"
    },
    "2026-11-26": {
-    "price": 492.0,
+    "price": 490.0,
     "provider": "Vio.com"
    },
    "2026-11-27": {
-    "price": 538.0,
+    "price": 521.0,
     "provider": "Vio.com"
    },
    "2026-11-28": {
-    "price": 631.0,
+    "price": 628.0,
     "provider": "Vio.com"
    },
    "2026-11-29": {
-    "price": 385.0,
+    "price": 383.0,
     "provider": "Vio.com"
    },
    "2026-11-30": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-01": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-02": {
-    "price": 385.0,
+    "price": 383.0,
     "provider": "Vio.com"
    },
    "2026-12-03": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-04": {
-    "price": 322.0,
+    "price": 321.0,
     "provider": "WHotels.com"
    },
    "2026-12-05": {
-    "price": 400.0,
+    "price": 398.0,
     "provider": "Vio.com"
    },
    "2026-12-06": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-07": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-08": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-09": {
-    "price": 385.0,
+    "price": 383.0,
     "provider": "Vio.com"
    },
    "2026-12-10": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-11": {
-    "price": 354.0,
+    "price": 352.0,
     "provider": "Vio.com"
    },
    "2026-12-12": {
-    "price": 431.0,
+    "price": 429.0,
     "provider": "Vio.com"
    },
    "2026-12-13": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-14": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-15": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-16": {
-    "price": 385.0,
+    "price": 383.0,
     "provider": "Vio.com"
    },
    "2026-12-17": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-18": {
-    "price": 322.0,
+    "price": 321.0,
     "provider": "WHotels.com"
    },
    "2026-12-19": {
-    "price": 385.0,
+    "price": 398.0,
     "provider": "Vio.com"
    },
    "2026-12-20": {
-    "price": 369.0,
+    "price": 368.0,
     "provider": "Vio.com"
    },
    "2026-12-21": {
-    "price": 385.0,
+    "price": 383.0,
     "provider": "Vio.com"
    },
    "2026-12-22": {
-    "price": 400.0,
+    "price": 398.0,
     "provider": "Vio.com"
    },
    "2026-12-23": {
-    "price": 385.0,
+    "price": 383.0,
     "provider": "Vio.com"
    },
    "2026-12-24": {
-    "price": 440.0,
+    "price": 439.0,
     "provider": "WHotels.com"
    },
    "2026-12-25": {
-    "price": 461.0,
+    "price": 460.0,
     "provider": "Vio.com"
    },
    "2026-12-26": {
-    "price": 600.0,
+    "price": 597.0,
     "provider": "Vio.com"
    },
    "2026-12-27": {
-    "price": 554.0,
+    "price": 552.0,
     "provider": "Vio.com"
    },
    "2026-12-28": {
-    "price": 554.0,
+    "price": 552.0,
     "provider": "Vio.com"
    },
    "2026-12-29": {
-    "price": 554.0,
+    "price": 552.0,
     "provider": "Vio.com"
    },
    "2026-12-30": {
-    "price": 554.0,
+    "price": 552.0,
     "provider": "Vio.com"
    },
    "2027-01-01": {
-    "price": 861.0,
+    "price": 858.0,
     "provider": "Vio.com"
    },
    "2027-01-02": {
-    "price": 554.0,
+    "price": 552.0,
     "provider": "Vio.com"
    },
    "2027-01-03": {
-    "price": 461.0,
+    "price": 460.0,
     "provider": "Vio.com"
    },
    "2027-01-04": {
-    "price": 400.0,
+    "price": 398.0,
     "provider": "Vio.com"
    },
    "2027-01-05": {
-    "price": 415.0,
+    "price": 414.0,
     "provider": "Vio.com"
    },
    "2027-01-06": {
-    "price": 477.0,
+    "price": 475.0,
     "provider": "Vio.com"
    },
    "2027-01-07": {
-    "price": 492.0,
+    "price": 490.0,
     "provider": "Vio.com"
    },
    "2027-01-08": {
-    "price": 461.0,
+    "price": 460.0,
     "provider": "Vio.com"
    },
    "2027-01-09": {
-    "price": 477.0,
+    "price": 475.0,
     "provider": "Vio.com"
    },
    "2027-01-10": {
-    "price": 446.0,
-    "provider": "Vio.com"
+    "price": 488.0,
+    "provider": "Agoda.com"
    },
    "2027-01-11": {
-    "price": 477.0,
+    "price": 475.0,
     "provider": "Vio.com"
    },
    "2027-01-12": {
-    "price": 492.0,
+    "price": 490.0,
     "provider": "Vio.com"
    },
    "2027-01-13": {
-    "price": 477.0,
+    "price": 475.0,
     "provider": "Vio.com"
    },
    "2027-01-14": {
-    "price": 477.0,
+    "price": 475.0,
     "provider": "Vio.com"
    },
    "2027-01-15": {
-    "price": 385.0,
+    "price": 383.0,
     "provider": "Vio.com"
    },
    "2027-01-16": {
-    "price": 400.0,
+    "price": 398.0,
     "provider": "Vio.com"
    },
    "2027-01-17": {
-    "price": 477.0,
-    "provider": "Vio.com"
+    "price": 522.0,
+    "provider": "Agoda.com"
    }
   },
   "g13808515-d306447": {
    "2026-11-20": {
-    "price": 433.0,
+    "price": 431.0,
     "provider": "Agoda.com"
    },
    "2026-11-22": {
-    "price": 554.0,
+    "price": 551.0,
     "provider": "Agoda.com"
    },
    "2026-11-23": {
-    "price": 360.0,
-    "provider": "Agoda.com"
+    "price": 398.0,
+    "provider": "Booking.com"
    },
    "2026-11-24": {
-    "price": 402.0,
-    "provider": "Agoda.com"
+    "price": 399.0,
+    "provider": "Vio.com"
    },
    "2026-11-25": {
-    "price": 432.0,
+    "price": 431.0,
     "provider": "Agoda.com"
    },
    "2026-11-26": {
-    "price": 285.0,
+    "price": 282.0,
     "provider": "Vio.com"
    },
    "2026-11-27": {
-    "price": 378.0,
+    "price": 391.0,
     "provider": "Agoda.com"
    },
    "2026-11-28": {
-    "price": 352.0,
-    "provider": "Vio.com"
+    "price": 350.0,
+    "provider": "Agoda.com"
    },
    "2026-11-29": {
-    "price": 286.0,
+    "price": 288.0,
     "provider": "Vio.com"
    },
    "2026-11-30": {
-    "price": 252.0,
+    "price": 251.0,
     "provider": "Vio.com"
    },
    "2026-12-01": {
-    "price": 266.0,
+    "price": 265.0,
     "provider": "Agoda.com"
    },
    "2026-12-02": {
-    "price": 266.0,
+    "price": 265.0,
     "provider": "Agoda.com"
    },
    "2026-12-03": {
-    "price": 266.0,
+    "price": 265.0,
     "provider": "Agoda.com"
    },
    "2026-12-04": {
-    "price": 285.0,
+    "price": 284.0,
     "provider": "Agoda.com"
    },
    "2026-12-05": {
-    "price": 481.0,
-    "provider": "Vio.com"
+    "price": 514.0,
+    "provider": "Agoda.com"
    },
    "2026-12-06": {
-    "price": 249.0,
+    "price": 248.0,
     "provider": "Agoda.com"
    },
    "2026-12-07": {
-    "price": 266.0,
+    "price": 265.0,
     "provider": "Agoda.com"
    },
    "2026-12-08": {
-    "price": 257.0,
+    "price": 256.0,
     "provider": "Agoda.com"
    },
    "2026-12-09": {
-    "price": 257.0,
+    "price": 256.0,
     "provider": "Vio.com"
    },
    "2026-12-10": {
-    "price": 257.0,
+    "price": 256.0,
     "provider": "Agoda.com"
    },
    "2026-12-11": {
-    "price": 352.0,
-    "provider": "Vio.com"
-   },
-   "2026-12-13": {
-    "price": 270.0,
+    "price": 350.0,
     "provider": "Agoda.com"
    },
+   "2026-12-13": {
+    "price": 281.0,
+    "provider": "Booking.com"
+   },
    "2026-12-14": {
-    "price": 266.0,
+    "price": 265.0,
     "provider": "Agoda.com"
    },
    "2026-12-15": {
-    "price": 266.0,
+    "price": 265.0,
     "provider": "Agoda.com"
    },
    "2026-12-16": {
-    "price": 266.0,
+    "price": 265.0,
     "provider": "Agoda.com"
    },
    "2026-12-17": {
-    "price": 266.0,
+    "price": 265.0,
     "provider": "Agoda.com"
    },
    "2026-12-18": {
-    "price": 379.0,
+    "price": 378.0,
     "provider": "Agoda.com"
    },
    "2026-12-19": {
-    "price": 460.0,
+    "price": 458.0,
     "provider": "Vio.com"
    },
    "2026-12-20": {
-    "price": 317.0,
+    "price": 316.0,
     "provider": "Vio.com"
    },
    "2026-12-21": {
-    "price": 325.0,
+    "price": 309.0,
     "provider": "Agoda.com"
    },
    "2026-12-22": {
-    "price": 352.0,
+    "price": 350.0,
     "provider": "Agoda.com"
    },
    "2026-12-23": {
-    "price": 341.0,
+    "price": 342.0,
     "provider": "Vio.com"
    },
    "2026-12-24": {
-    "price": 404.0,
+    "price": 402.0,
     "provider": "Agoda.com"
    },
    "2026-12-25": {
-    "price": 404.0,
-    "provider": "Agoda.com"
+    "price": 427.0,
+    "provider": "Vio.com"
    },
    "2026-12-26": {
-    "price": 424.0,
-    "provider": "Vio.com"
+    "price": 433.0,
+    "provider": "Agoda.com"
    },
    "2026-12-27": {
-    "price": 413.0,
-    "provider": "Vio.com"
+    "price": 406.0,
+    "provider": "Agoda.com"
    },
    "2026-12-28": {
-    "price": 413.0,
-    "provider": "Vio.com"
+    "price": 401.0,
+    "provider": "Agoda.com"
    },
    "2026-12-29": {
-    "price": 462.0,
+    "price": 460.0,
     "provider": "Agoda.com"
    },
    "2026-12-30": {
-    "price": 771.0,
+    "price": 768.0,
     "provider": "Vio.com"
    },
    "2027-01-01": {
-    "price": 692.0,
+    "price": 730.0,
     "provider": "Agoda.com"
    },
    "2027-01-02": {
-    "price": 449.0,
+    "price": 447.0,
     "provider": "Agoda.com"
    },
    "2027-01-03": {
-    "price": 202.0,
+    "price": 203.0,
     "provider": "Trip.com"
    },
    "2027-01-04": {
-    "price": 202.0,
+    "price": 203.0,
     "provider": "Trip.com"
    },
    "2027-01-05": {
@@ -933,43 +933,43 @@
     "provider": "Trip.com"
    },
    "2027-01-06": {
-    "price": 300.0,
+    "price": 303.0,
     "provider": "Trip.com"
    },
    "2027-01-07": {
-    "price": 230.0,
+    "price": 237.0,
     "provider": "Trip.com"
    },
    "2027-01-08": {
-    "price": 325.0,
+    "price": 334.0,
     "provider": "Trip.com"
    },
    "2027-01-09": {
-    "price": 345.0,
+    "price": 347.0,
     "provider": "Trip.com"
    },
    "2027-01-10": {
-    "price": 206.0,
+    "price": 207.0,
     "provider": "Trip.com"
    },
    "2027-01-11": {
-    "price": 205.0,
-    "provider": "Trip.com"
+    "price": 200.0,
+    "provider": "KLOOK"
    },
    "2027-01-12": {
-    "price": 209.0,
-    "provider": "Trip.com"
+    "price": 202.0,
+    "provider": "KLOOK"
    },
    "2027-01-13": {
-    "price": 214.0,
+    "price": 215.0,
     "provider": "Trip.com"
    },
    "2027-01-14": {
-    "price": 200.0,
-    "provider": "Trip.com"
+    "price": 188.0,
+    "provider": "KLOOK"
    },
    "2027-01-15": {
-    "price": 205.0,
+    "price": 206.0,
     "provider": "Trip.com"
    },
    "2027-01-16": {
@@ -977,25 +977,25 @@
     "provider": "Trip.com"
    },
    "2027-01-17": {
-    "price": 202.0,
+    "price": 203.0,
     "provider": "Trip.com"
    }
   },
   "g13808671-d301429": {
    "2026-11-20": {
-    "price": 302.0,
+    "price": 301.0,
     "provider": "Agoda.com"
    },
    "2026-11-22": {
-    "price": 413.0,
+    "price": 414.0,
     "provider": "Trip.com"
    },
    "2026-11-23": {
-    "price": 379.0,
+    "price": 381.0,
     "provider": "Trip.com"
    },
    "2026-11-24": {
-    "price": 379.0,
+    "price": 381.0,
     "provider": "Trip.com"
    },
    "2026-11-25": {
@@ -1003,83 +1003,83 @@
     "provider": "Trip.com"
    },
    "2026-11-26": {
-    "price": 186.0,
-    "provider": "Trip.com"
+    "price": 228.0,
+    "provider": "Agoda.com"
    },
    "2026-11-27": {
-    "price": 245.0,
+    "price": 340.0,
     "provider": "Trip.com"
    },
    "2026-11-28": {
-    "price": 304.0,
+    "price": 305.0,
     "provider": "Agoda.com"
    },
    "2026-11-29": {
-    "price": 204.0,
+    "price": 207.0,
     "provider": "Trip.com"
    },
    "2026-11-30": {
-    "price": 186.0,
+    "price": 187.0,
     "provider": "Trip.com"
    },
    "2026-12-01": {
-    "price": 186.0,
+    "price": 187.0,
     "provider": "Trip.com"
    },
    "2026-12-02": {
-    "price": 186.0,
+    "price": 184.0,
     "provider": "Trip.com"
    },
    "2026-12-03": {
-    "price": 186.0,
+    "price": 184.0,
     "provider": "Trip.com"
    },
    "2026-12-04": {
-    "price": 222.0,
+    "price": 223.0,
     "provider": "Trip.com"
    },
    "2026-12-05": {
-    "price": 467.0,
+    "price": 469.0,
     "provider": "Trip.com"
    },
    "2026-12-06": {
-    "price": 197.0,
+    "price": 198.0,
     "provider": "Trip.com"
    },
    "2026-12-07": {
-    "price": 197.0,
+    "price": 198.0,
     "provider": "Trip.com"
    },
    "2026-12-08": {
-    "price": 197.0,
+    "price": 196.0,
     "provider": "Trip.com"
    },
    "2026-12-09": {
-    "price": 197.0,
+    "price": 196.0,
     "provider": "Trip.com"
    },
    "2026-12-10": {
-    "price": 195.0,
+    "price": 196.0,
     "provider": "Trip.com"
    },
    "2026-12-11": {
-    "price": 401.0,
+    "price": 403.0,
     "provider": "Trip.com"
    },
    "2026-12-12": {
-    "price": 440.0,
+    "price": 441.0,
     "provider": "Trip.com"
    },
    "2026-12-13": {
-    "price": 206.0,
+    "price": 207.0,
     "provider": "Trip.com"
    },
    "2026-12-14": {
-    "price": 186.0,
+    "price": 184.0,
     "provider": "Trip.com"
    },
    "2026-12-15": {
-    "price": 186.0,
+    "price": 187.0,
     "provider": "Trip.com"
    },
    "2026-12-16": {
@@ -1087,19 +1087,19 @@
     "provider": "Trip.com"
    },
    "2026-12-17": {
-    "price": 186.0,
+    "price": 184.0,
     "provider": "Trip.com"
    },
    "2026-12-18": {
-    "price": 222.0,
+    "price": 223.0,
     "provider": "Trip.com"
    },
    "2026-12-19": {
-    "price": 343.0,
+    "price": 341.0,
     "provider": "Agoda.com"
    },
    "2026-12-20": {
-    "price": 206.0,
+    "price": 207.0,
     "provider": "Trip.com"
    },
    "2026-12-21": {
@@ -1107,95 +1107,95 @@
     "provider": "Trip.com"
    },
    "2026-12-22": {
-    "price": 186.0,
+    "price": 184.0,
     "provider": "Trip.com"
    },
    "2026-12-23": {
-    "price": 204.0,
+    "price": 205.0,
     "provider": "Trip.com"
    },
    "2026-12-24": {
-    "price": 550.0,
+    "price": 530.0,
     "provider": "Trip.com"
    },
    "2026-12-25": {
-    "price": 750.0,
+    "price": 752.0,
     "provider": "Trip.com"
    },
    "2026-12-26": {
-    "price": 750.0,
+    "price": 752.0,
     "provider": "Trip.com"
    },
    "2026-12-27": {
-    "price": 368.0,
+    "price": 370.0,
     "provider": "Trip.com"
    },
    "2026-12-28": {
-    "price": 368.0,
+    "price": 370.0,
     "provider": "Trip.com"
    },
    "2026-12-29": {
-    "price": 356.0,
+    "price": 355.0,
     "provider": "Agoda.com"
    },
    "2026-12-30": {
-    "price": 1044.0,
+    "price": 1047.0,
     "provider": "Trip.com"
    },
    "2026-12-31": {
-    "price": 1044.0,
+    "price": 1047.0,
     "provider": "Trip.com"
    },
    "2027-01-01": {
-    "price": 1044.0,
+    "price": 1047.0,
     "provider": "Trip.com"
    },
    "2027-01-02": {
-    "price": 946.0,
+    "price": 949.0,
     "provider": "Trip.com"
    },
    "2027-01-03": {
-    "price": 237.0,
+    "price": 238.0,
     "provider": "Trip.com"
    },
    "2027-01-04": {
-    "price": 193.0,
+    "price": 194.0,
     "provider": "Trip.com"
    },
    "2027-01-05": {
-    "price": 175.0,
+    "price": 176.0,
     "provider": "Trip.com"
    },
    "2027-01-06": {
-    "price": 175.0,
+    "price": 176.0,
     "provider": "Trip.com"
    },
    "2027-01-07": {
-    "price": 175.0,
+    "price": 176.0,
     "provider": "Trip.com"
    },
    "2027-01-08": {
-    "price": 225.0,
+    "price": 227.0,
     "provider": "Trip.com"
    },
    "2027-01-09": {
-    "price": 248.0,
+    "price": 258.0,
     "provider": "Trip.com"
    },
    "2027-01-10": {
-    "price": 213.0,
+    "price": 214.0,
     "provider": "Trip.com"
    },
    "2027-01-11": {
-    "price": 190.0,
+    "price": 191.0,
     "provider": "Trip.com"
    },
    "2027-01-12": {
-    "price": 190.0,
+    "price": 191.0,
     "provider": "Trip.com"
    },
    "2027-01-13": {
-    "price": 193.0,
+    "price": 191.0,
     "provider": "Trip.com"
    },
    "2027-01-14": {
@@ -1203,189 +1203,181 @@
     "provider": "Trip.com"
    },
    "2027-01-15": {
-    "price": 199.0,
+    "price": 201.0,
     "provider": "Trip.com"
    },
    "2027-01-16": {
-    "price": 207.0,
+    "price": 205.0,
     "provider": "Trip.com"
    },
    "2027-01-17": {
-    "price": 187.0,
+    "price": 184.0,
     "provider": "Trip.com"
    }
   },
   "g13811269-d8398891": {
    "2026-11-23": {
-    "price": 331.0,
+    "price": 332.0,
     "provider": "Trip.com"
    },
    "2026-11-24": {
-    "price": 331.0,
+    "price": 332.0,
     "provider": "Trip.com"
    },
    "2026-11-25": {
-    "price": 298.0,
+    "price": 299.0,
     "provider": "Trip.com"
    },
    "2026-11-26": {
-    "price": 331.0,
+    "price": 332.0,
     "provider": "Trip.com"
    },
    "2026-11-27": {
-    "price": 417.0,
-    "provider": "Trip.com"
-   },
-   "2026-11-28": {
-    "price": 417.0,
+    "price": 418.0,
     "provider": "Trip.com"
    },
    "2026-11-29": {
-    "price": 379.0,
-    "provider": "Trip.com"
-   },
-   "2026-11-30": {
-    "price": 379.0,
-    "provider": "Trip.com"
-   },
-   "2026-12-01": {
-    "price": 333.0,
+    "price": 380.0,
     "provider": "Booking.com"
    },
-   "2026-12-02": {
-    "price": 349.0,
+   "2026-11-30": {
+    "price": 380.0,
+    "provider": "Booking.com"
+   },
+   "2026-12-01": {
+    "price": 332.0,
     "provider": "Booking.com"
    },
    "2026-12-03": {
-    "price": 401.0,
+    "price": 399.0,
     "provider": "Booking.com"
    },
    "2026-12-04": {
-    "price": 382.0,
+    "price": 380.0,
     "provider": "Booking.com"
    },
    "2026-12-05": {
-    "price": 363.0,
+    "price": 361.0,
     "provider": "Booking.com"
    },
    "2026-12-06": {
-    "price": 363.0,
+    "price": 361.0,
     "provider": "Booking.com"
    },
    "2026-12-07": {
-    "price": 316.0,
+    "price": 332.0,
     "provider": "Booking.com"
    },
    "2026-12-08": {
-    "price": 316.0,
+    "price": 315.0,
     "provider": "Booking.com"
    },
    "2026-12-09": {
-    "price": 316.0,
+    "price": 315.0,
     "provider": "Booking.com"
    },
    "2026-12-10": {
-    "price": 382.0,
+    "price": 380.0,
     "provider": "Booking.com"
    },
    "2026-12-11": {
-    "price": 363.0,
+    "price": 361.0,
     "provider": "Booking.com"
    },
    "2026-12-12": {
-    "price": 420.0,
+    "price": 399.0,
     "provider": "Booking.com"
    },
    "2026-12-13": {
-    "price": 333.0,
+    "price": 332.0,
     "provider": "Booking.com"
    },
    "2026-12-14": {
-    "price": 316.0,
+    "price": 315.0,
     "provider": "Booking.com"
    },
    "2026-12-15": {
-    "price": 300.0,
+    "price": 299.0,
     "provider": "Booking.com"
    },
    "2026-12-16": {
-    "price": 316.0,
+    "price": 315.0,
     "provider": "Booking.com"
    },
    "2026-12-17": {
-    "price": 316.0,
+    "price": 315.0,
     "provider": "Booking.com"
    },
    "2026-12-18": {
-    "price": 300.0,
+    "price": 299.0,
     "provider": "Booking.com"
    },
    "2026-12-19": {
-    "price": 382.0,
+    "price": 380.0,
     "provider": "Booking.com"
    },
    "2026-12-20": {
-    "price": 333.0,
+    "price": 380.0,
     "provider": "Booking.com"
    },
    "2026-12-21": {
-    "price": 300.0,
+    "price": 315.0,
     "provider": "Booking.com"
    },
    "2026-12-22": {
-    "price": 278.0,
+    "price": 277.0,
     "provider": "Booking.com"
    },
    "2026-12-23": {
-    "price": 316.0,
+    "price": 315.0,
     "provider": "Booking.com"
    },
    "2026-12-24": {
-    "price": 349.0,
+    "price": 348.0,
     "provider": "Booking.com"
    },
    "2026-12-25": {
-    "price": 352.0,
+    "price": 348.0,
     "provider": "Booking.com"
    },
    "2026-12-26": {
-    "price": 401.0,
+    "price": 399.0,
     "provider": "Booking.com"
    },
    "2026-12-27": {
-    "price": 349.0,
+    "price": 418.0,
     "provider": "Booking.com"
    },
    "2026-12-28": {
-    "price": 349.0,
+    "price": 348.0,
     "provider": "Booking.com"
    },
    "2026-12-29": {
-    "price": 469.0,
+    "price": 467.0,
     "provider": "Booking.com"
    },
    "2026-12-30": {
-    "price": 435.0,
+    "price": 433.0,
     "provider": "Booking.com"
    },
    "2026-12-31": {
-    "price": 887.0,
+    "price": 698.0,
     "provider": "Booking.com"
    },
    "2027-01-01": {
-    "price": 435.0,
+    "price": 433.0,
     "provider": "Booking.com"
    },
    "2027-01-02": {
-    "price": 321.0,
+    "price": 319.0,
     "provider": "Booking.com"
    },
    "2027-01-03": {
-    "price": 331.0,
+    "price": 330.0,
     "provider": "Booking.com"
    },
    "2027-01-04": {
-    "price": 269.0,
+    "price": 268.0,
     "provider": "Booking.com"
    },
    "2027-01-05": {
@@ -1397,15 +1389,15 @@
     "provider": "Booking.com"
    },
    "2027-01-07": {
-    "price": 293.0,
+    "price": 292.0,
     "provider": "Booking.com"
    },
    "2027-01-08": {
-    "price": 277.0,
+    "price": 276.0,
     "provider": "Booking.com"
    },
    "2027-01-09": {
-    "price": 253.0,
+    "price": 252.0,
     "provider": "Booking.com"
    },
    "2027-01-10": {
@@ -1413,19 +1405,19 @@
     "provider": "Booking.com"
    },
    "2027-01-11": {
-    "price": 223.0,
+    "price": 222.0,
     "provider": "Booking.com"
    },
    "2027-01-12": {
-    "price": 223.0,
+    "price": 222.0,
     "provider": "Booking.com"
    },
    "2027-01-13": {
-    "price": 223.0,
+    "price": 222.0,
     "provider": "Booking.com"
    },
    "2027-01-14": {
-    "price": 223.0,
+    "price": 222.0,
     "provider": "Booking.com"
    },
    "2027-01-15": {
@@ -1433,11 +1425,11 @@
     "provider": "Booking.com"
    },
    "2027-01-16": {
-    "price": 293.0,
+    "price": 252.0,
     "provider": "Booking.com"
    },
    "2027-01-17": {
-    "price": 223.0,
+    "price": 222.0,
     "provider": "Booking.com"
    }
   }
