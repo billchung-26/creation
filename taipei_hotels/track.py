@@ -8,7 +8,10 @@ queried for every 1-night stay in the configured window.
 Only the Python standard library is used. Configuration via env vars:
   WINDOW_START   first check-in date            (default 2026-11-20)
   WINDOW_END     last check-out date            (default 2027-01-18)
-  CITY           city to match                  (default Taipei)
+  CITY           city/country to match          (default Taipei; "Taiwan" = whole country)
+  TRIP_WEEKDAY   check-in weekday for multi-night trips, 0=Mon..6=Sun (optional)
+  TRIP_NIGHTS    nights per trip                (default 4)
+  TRIP_MONTH     only trips checking in this month, YYYY-MM (optional)
   CURRENCY       Xotelo currency                (default USD)
   CHANGE_PCT     min % change to report a night (default 5)
   GMAIL_USER / GMAIL_APP_PASSWORD / MAIL_TO      email settings (optional)
@@ -39,6 +42,10 @@ CITY = os.environ.get("CITY", "Taipei")
 CURRENCY = os.environ.get("CURRENCY", "USD").upper()
 CHANGE_PCT = float(os.environ.get("CHANGE_PCT", "5"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
+TRIP_WEEKDAY = int(os.environ["TRIP_WEEKDAY"]) if os.environ.get("TRIP_WEEKDAY") else None
+TRIP_NIGHTS = int(os.environ.get("TRIP_NIGHTS", "4"))
+TRIP_MONTH = os.environ.get("TRIP_MONTH", "")
+WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 SNAPSHOT_PATH = Path(__file__).parent / "data" / "latest.json"
 
@@ -57,7 +64,7 @@ def http_json(url, retries=3):
 
 
 def load_hotels(payload):
-    """Return Taipei hotels that are in FHR or THC, keyed by Open Hotel Data id."""
+    """Return CITY hotels that are in FHR or THC, keyed by Open Hotel Data id."""
     city = CITY.lower()
     hotels = {}
     for h in payload.get("hotels", []):
@@ -69,6 +76,7 @@ def load_hotels(payload):
             continue
         hotels[h["id"]] = {
             "name": h.get("name") or h["id"],
+            "city": h.get("city") or "",
             "programs": programs,
             "tripadvisor_id": h.get("tripadvisor_id") or "",
             "amex_url": h.get("amex_url") or "",
@@ -129,6 +137,24 @@ def cheapest(nights):
     return day, nights[day]["price"]
 
 
+def trips(curr):
+    """Sum nightly prices for each TRIP_WEEKDAY check-in of TRIP_NIGHTS nights, cheapest first."""
+    if TRIP_WEEKDAY is None:
+        return []
+    out = []
+    for hid, hotel in curr["hotels"].items():
+        nights = curr["prices"].get(hid, {})
+        day = WINDOW_START
+        while day + dt.timedelta(days=TRIP_NIGHTS) <= WINDOW_END:
+            if day.weekday() == TRIP_WEEKDAY and (not TRIP_MONTH or day.isoformat().startswith(TRIP_MONTH)):
+                prices = [nights.get((day + dt.timedelta(days=i)).isoformat(), {}).get("price") for i in range(TRIP_NIGHTS)]
+                total = sum(prices) if None not in prices else None
+                out.append({"hotel": hotel["name"], "city": hotel.get("city", ""), "check_in": day,
+                            "check_out": day + dt.timedelta(days=TRIP_NIGHTS), "prices": prices, "total": total})
+            day += dt.timedelta(days=1)
+    return sorted(out, key=lambda t: (t["total"] is None, t["total"] or 0))
+
+
 def money(value):
     return f"{CURRENCY} {value:,.0f}"
 
@@ -180,12 +206,12 @@ def render(curr, prev, lines, rows):
         subject_bits.append(f"{drops} nights cheaper")
     if lines:
         subject_bits.append("list changed")
-    subject = f"[Taipei FHR/THC] {window} " + (", ".join(subject_bits) if subject_bits else "daily summary")
+    subject = f"[{CITY} FHR/THC] {window} " + (", ".join(subject_bits) if subject_bits else "daily summary")
 
-    text = [f"Taipei Amex FHR/THC prices, stays {window} (1 night, lowest rate incl. tax, via Xotelo)",
+    text = [f"{CITY} Amex FHR/THC prices, stays {window} (1 night, lowest rate incl. tax, via Xotelo)",
             f"Fetched {curr['generated_at']}" + (f", compared with {prev['generated_at']}" if prev else " (first run, no comparison yet)"), ""]
     text += lines + ([""] if lines else [])
-    html = [f"<h2>Taipei Amex FHR/THC — stays {escape(window)}</h2>",
+    html = [f"<h2>{escape(CITY)} Amex FHR/THC — stays {escape(window)}</h2>",
             f"<p>1-night lowest rate incl. tax via Xotelo. Fetched {escape(curr['generated_at'])}"
             + (f", compared with {escape(prev['generated_at'])}" if prev else " (first run)") + ".</p>"]
     if lines:
@@ -207,6 +233,21 @@ def render(curr, prev, lines, rows):
         html.append(f"<tr><td>{name}</td><td>{escape(r['programs'])}</td><td>{escape(low)}</td><td>{escape(old)}</td>"
                     f"<td>{r['drops']} / {r['rises']}</td><td>{r['nights']}</td></tr>")
     html.append("</table>")
+
+    trip_rows = trips(curr)
+    if trip_rows:
+        label = f"{WEEKDAYS[TRIP_WEEKDAY]} → {WEEKDAYS[(TRIP_WEEKDAY + TRIP_NIGHTS) % 7]} ({TRIP_NIGHTS} nights)"
+        text += ["", f"Trips {label}, cheapest first (sum of nightly lowest rates):"]
+        html.append(f"<h3>Trips {escape(label)}</h3><table border='1' cellpadding='6' cellspacing='0' "
+                    "style='border-collapse:collapse'><tr><th>Hotel</th><th>City</th><th>Dates</th><th>Total</th><th>Per night</th></tr>")
+        for t in trip_rows:
+            dates = f"{t['check_in']:%m/%d} → {t['check_out']:%m/%d}"
+            total = money(t["total"]) if t["total"] is not None else "incomplete"
+            nightly = " / ".join(f"{p:,.0f}" if p is not None else "—" for p in t["prices"])
+            text.append(f"  {t['hotel']} ({t['city']}) {dates}: {total}  [{nightly}]")
+            html.append(f"<tr><td>{escape(t['hotel'])}</td><td>{escape(t['city'])}</td><td>{dates}</td>"
+                        f"<td>{escape(total)}</td><td>{escape(nightly)}</td></tr>")
+        html.append("</table>")
 
     changed = [r for r in rows if r["changes"]]
     if changed:

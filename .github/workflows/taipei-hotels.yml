@@ -24,7 +24,10 @@ jobs:
         env:
           WINDOW_START: "2026-11-20"
           WINDOW_END: "2027-01-18"
-          CITY: Taipei
+          CITY: Taiwan
+          TRIP_WEEKDAY: "3" # Thursday check-in
+          TRIP_NIGHTS: "4"  # -> Monday check-out
+          TRIP_MONTH: "2026-12"
           CURRENCY: USD
           CHANGE_PCT: "5"
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
